@@ -1,0 +1,31 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamesblack1/nodejs.git"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Jaime de la Fuente Bastias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jamesblack1/nodejs/issues"
+  },
+  "homepage": "https://github.com/Jamesblack1/nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.13"
+  }
+}
